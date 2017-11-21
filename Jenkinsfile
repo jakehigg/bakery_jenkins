@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Git Packer Template') { 
             steps { 
-                sh 'rm -rvf bakery_tomcat'
-                sh 'git clone https://github.com/jakehigg/bakery_tomcat.git' 
+                sh 'rm -rvf bakery_jenkins'
+                sh 'git clone https://github.com/jakehigg/bakery_jenkins.git' 
             }
         }
         stage('Bake') {
