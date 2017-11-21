@@ -50,7 +50,9 @@
 		"sudo apt-get install unzip -y",
 		"unzip packer*.zip",
 		"sudo cp packer /bin/",
-		"rm -rvf packe*"
+		"rm -rvf packe*",
+		"sudo mkdir /home/jenkins",
+		"sudo chown jenkins.jenkins /home/jenkins"
             ]
         }
     ]
