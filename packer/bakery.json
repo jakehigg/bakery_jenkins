@@ -51,7 +51,7 @@
 		"unzip packer*.zip",
 		"sudo cp packer /bin/",
 		"rm -rvf packe*",
-		"sudo mkdir /home/jenkins",
+		"sudo mkdir /home/tomcat",
 		"sudo chown tomcat.tomcat /home/tomcat"
             ]
         }
