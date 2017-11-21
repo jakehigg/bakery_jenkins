@@ -52,7 +52,7 @@
 		"sudo cp packer /bin/",
 		"rm -rvf packe*",
 		"sudo mkdir /home/jenkins",
-		"sudo chown jenkins.jenkins /home/jenkins"
+		"sudo chown tomcat.tomcat /home/tomcat"
             ]
         }
     ]
