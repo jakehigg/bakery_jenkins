@@ -18,6 +18,7 @@
       "tag:OS": "Linux",
       "tag:Release": "Ubuntu16",
       "tag:Role": "Tomcat",
+      "tag:Profile": "None",
       "tag:Version": "Latest"
       },
       "owners": ["{{user `aws_account_id`}}"],
