@@ -45,7 +45,12 @@
             "inline":[
 		"git clone https://github.com/jakehigg/bakery_jenkins.git",
 		"sudo /opt/puppetlabs/bin/puppet apply bakery_jenkins/puppet/site.pp",
-		"rm -rvf bakery_jenkins"
+		"rm -rvf bakery_jenkins",
+		"wget https://releases.hashicorp.com/packer/1.1.2/packer_1.1.2_linux_amd64.zip",
+		"sudo apt-get install unzip -y",
+		"unzip packer*.zip",
+		"sudo cp packer /bin/",
+		"rm -rvf packe*"
             ]
         }
     ]
