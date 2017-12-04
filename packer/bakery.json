@@ -52,7 +52,9 @@
 		"sudo cp packer /bin/",
 		"rm -rvf packe*",
 		"sudo mkdir /home/tomcat",
-		"sudo chown tomcat.tomcat /home/tomcat"
+		"sudo chown tomcat.tomcat /home/tomcat",
+		"sudo mkdir /newfolder"
+		
             ]
         }
     ]
